@@ -43,7 +43,7 @@ workflows:
            tags:
              only: /^v[0-9]+\.[0-9]+\.[0-9]+.*/
            branches:
-             ignore: /.*/
+             only: 529-CI-build-and-upload-schemas
 
 jobs:
   contract_cw1_subkeys:
